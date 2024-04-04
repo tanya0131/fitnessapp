@@ -1,0 +1,320 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .pricing__top {
+    text-align: center;
+  }
+  
+  .pricing__top h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .pricing__top p {
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    line-height: 28px;
+    margin-bottom: 50px;
+  }
+  
+  .pricing__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+  }
+  
+  .pricing__item {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 33%;
+    background: #fff;
+  }
+  
+  .pricing__card-top {
+    padding: 30px;
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+  
+  .pricing__card-top h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .pricing__card-top .pricing {
+    font-size: 1.4rem;
+  }
+  
+  .pricing__card-top .pricing span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .pricing__item .services {
+    padding: 20px;
+  }
+  
+  .pricing__item .services ul li {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #666;
+    line-height: 28px;
+
+  }
+
+  .pricing__item .services img {
+    width: 100px; /* Set the desired width of the image */
+    height: 100px; /* Set the desired height of the image */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Align the image horizontally in the center */
+    column-gap: 1.5rem;
+    color: #666;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+
+  
+  .pricing__item .services ul li span {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .services {
+    text-align: center;
+  }
+  
+  .services button {
+    border: 0cap;
+    outline: none;
+    display:flex;
+    border-radius: 30px;
+    align-items: center;
+    column-gap: 1rem;
+    font-size: 1.1rem;
+   box-shadow: 3px 3px 8px -1px #37363f ;
+  }
+  
+  .pricing__item-001 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 30px;
+    width: 33%;
+    background: hsl(272, 7%, 59%);
+    margin-top: 2px;
+  }
+  
+  .pricing__item-002 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 30px;
+    width: 33%;
+    background:#fff;
+    color: #fff;
+    padding: 2px;
+    margin-top: 2px;
+  }
+  
+  .pricing__item-003 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 30px;
+    width: 33%;
+    background: #968e9d;
+    margin-top: 2px;
+  }
+  
+  /* Add this to your pricing.css or an appropriate CSS file */
+/* Add this to your pricing.css or an appropriate CSS file */
+
+.inline-cards1, .inline-cards2{
+  display: flex; /* Display cards in a row */
+  justify-content: space-between; /* Add space between cards */
+  margin-top: 20px; /* Adjust margin as needed */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+}
+
+
+.pricing__item-04,
+.pricing__item-06
+{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 30px;
+  width: calc(65% - 10px); /* Each card covers 50% of the container's width with some spacing */
+  background: #fff;
+  margin-bottom: 20px;
+  margin-top: 50px; /* Add margin between the cards */
+}
+
+.pricing__item-05,
+.pricing__item-07{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 30px;
+  width: calc(33% - 10px); /* Each card covers 50% of the container's width with some spacing */
+  background: #fff;
+  margin-bottom: 20px;
+  margin-top: 50px; /* Add margin between the cards */
+}
+
+.pricing__item-popup{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 15px;
+  width: calc(33% - 10px); /* Each card covers 50% of the container's width with some spacing */
+  background: #fff;
+  margin-bottom: 20px;
+  margin-top: 50px; 
+}
+
+/* Add shadow effect to the table */
+.table-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the text bold and center-aligned */
+.bold {
+  font-weight: bold;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.card-image {
+  display: block; /* Set display to block to center the image */
+  margin: 0 auto; /* Center the image horizontally */
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  z-index: 1;
+}
+
+.full-card-image {
+  width: 100%; /* Cover the entire card width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.pricing__item-s{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 30px;
+  width: calc(50% - 10px); /* Each card covers 50% of the container's width with some spacing */
+  background: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px; /* Add margin between the cards */
+}
+/* CSS Styles */
+.half-filled-bar {
+  width: 100px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  position: relative;
+  display: flex;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.half-filled-bar .fill {
+  height: 100%;
+  background-color: #2ecc71; /* Fill color for Sleep */
+  display: flex;
+  justify-content: flex-end; /* To make the bar fill from right to left */
+}
+
+.half-filled-bar.water .fill {
+  background-color: #3498db; /* Fill color for Water Intake */
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.right-corner-text {
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bolder;
+}
+/* CSS Styles */
+.thick-line {
+  width: 100%; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+  background-color: #ffffff;
+  border: none; /* Remove the border */
+  position: relative;
+  display: flex;
+  padding: 0.5px;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  border-radius: 5px; /* Add border radius for curved edges */
+}
+
+.filled-part {
+  flex: 31%; /* Fills half of the thick line */
+  background:linear-gradient(to right, #8a2be2, #9400d3, #9932cc, #8a2be2); /* Fill color for the filled part */
+  border-top-left-radius: 5px; /* Add border radius for curved edges */
+  border-bottom-left-radius: 5px; /* Add border radius for curved edges */
+}
+
+.empty-part {
+  flex: 69%; /* Fills the other half of the thick line */
+  background-color: #ffffff; /* Background color for the empty part */
+  border-top-right-radius: 5px; /* Add border radius for curved edges */
+  border-bottom-right-radius: 5px; /* Add border radius for curved edges */
+}
+.filled-part-2 {
+  flex: 0%; /* Fills half of the thick line */
+  background:linear-gradient(to right, #8a2be2, #9400d3, #9932cc, #8a2be2); /* Fill color for the filled part */
+  border-top-left-radius: 5px; /* Add border radius for curved edges */
+  border-bottom-left-radius: 5px; /* Add border radius for curved edges */
+}
+
+.empty-part-2 {
+  flex: 80%; /* Fills the other half of the thick line */
+  background-color: #ffffff; /* Background color for the empty part */
+  border-top-right-radius: 5px; /* Add border radius for curved edges */
+  border-bottom-right-radius: 5px; /* Add border radius for curved edges */
+}
+.container-2 {
+  max-width: 960px;
+  padding: 20px;
+  margin-top: 1px;
+}
+
+.inline-cards3{
+  display: flex; /* Display cards in a row */
+  justify-content: space-between; /* Add space between cards */
+  margin-top: 20px; /* Adjust margin as needed */
+  flex-wrap: wrap;
+ /* Allow cards to wrap to the next line if needed */
+}
+
+.h5-date{
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 30px;
+}
+
+.h5-span{
+  margin-top: 21px;
+  color: #9400d3;
+  font-size: 30px;
+  font-weight: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.pricing__item-d
+{
+  box-shadow: rgba(247, 128, 0, 0.755) 0px 5px 15px 0px;
+  border-radius: 30px;
+  width: calc(65% - 10px); /* Each card covers 50% of the container's width with some spacing */
+  background: #ffc404a5;
+  margin-bottom: 20px;
+  margin-top: 50px; /* Add margin between the cards */
+}

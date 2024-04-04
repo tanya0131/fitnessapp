@@ -1,0 +1,65 @@
+
+.exercise__container {
+  padding-top: 0;
+  margin-top: 40px;
+  margin-bottom: 100px; /* Adjust the margin to position the container above the end of the page */
+}
+
+.exercise__wrapper {
+  background: linear-gradient(to right, #8a2be2, #9400d3, #9932cc, #8a2be2);
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 60px;
+  height: 300px; /* Decrease the height of the gradient component */
+}
+
+  
+  
+  .exercise__item {
+    display: flex;
+    flex-direction: column; /* Align the icon and content vertically */
+    align-items: center;
+    width: 33%;
+    padding: 0 1.2rem; /* Add horizontal padding */
+    margin-bottom: 1.5rem; /* Add bottom margin between items */
+  }
+  
+  .exercise__icon {
+    width: 80%; /* Adjust the size of the icon container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: black;
+  }
+  
+  .exercise__icon img {
+    width: 30%;
+    height: auto;
+    color: white; /* Maintain the aspect ratio of the image */
+  }
+  
+  .exercise__content {
+    width: 100%; /* Adjust the width of the content container */
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .exercise__content h4 {
+    font-size: 1.8rem; /* Increase the font size */
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+    text-align: center; /* Center align the text */
+  }
+  
+  .exercise__content p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center; /* Center align the text */
+  }
+  
+  

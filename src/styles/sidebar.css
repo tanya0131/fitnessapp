@@ -1,0 +1,42 @@
+/* Sidebar.css */
+
+.sidebar {
+  background-color: black;
+  width: 20%;
+  height:100v;
+  position: relative;
+  top: 20px;
+  left: 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.login_btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #8a2be2, #9400d3, #9932cc, #8a2be2);
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  position: relative; /* Add position:relative */
+}
+
+.login_btn .icon {
+  margin-right: 10px;
+}
+
+.login_btn .link-text {
+  flex: 1;
+  text-align: left;
+}
+
+
